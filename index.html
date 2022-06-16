@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Date Fact App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 mx-auto">
+                <div class="card bg-primary text-white mt-5 p-4">
+                    <h1>Date Facts</h1>
+                    <p>Enter a date and get a random fact</p>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="">Month:Date</span>
+                        </div>
+                        <input type="text" class="form-control" id="monthInput" placeholder="Enter any Month...">
+                        <input type="text" class="form-control" id="dateInput" placeholder="Enter any Date...">
+                    </div>
+                    <div class="card-body" id="fact">
+                        <h4 class="card-title">
+                            Date Fact:
+                        </h4>
+                        <p id="factText" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
